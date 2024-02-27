@@ -1,0 +1,2 @@
+/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Android.mk
+/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Application.mk

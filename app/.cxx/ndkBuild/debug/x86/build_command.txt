@@ -1,0 +1,21 @@
+                    Executable : /Users/justinkwoklamchan/Library/Android/sdk/ndk/21.2.6472646/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Android.mk
+NDK_APPLICATION_MK=/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Application.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=1
+APP_PLATFORM=android-24
+NDK_OUT=/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/build/intermediates/ndkBuild/debug/lib
+APP_CFLAGS+=-DDEBUG=1
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1
