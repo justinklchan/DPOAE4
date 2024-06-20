@@ -1,2 +1,2 @@
-/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Android.mk
-/Users/justinkwoklamchan/AndroidStudioProjects/DPOAE4/app/Application.mk
+C:\Users\mmcha\AndroidStudioProjects\DPOAE4\app\Android.mk
+C:\Users\mmcha\AndroidStudioProjects\DPOAE4\app\Application.mk

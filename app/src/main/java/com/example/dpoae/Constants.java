@@ -87,7 +87,7 @@ public class Constants {
     static boolean OCTAVES;
 
     static int CheckFitProgress=0;
-    static int SEAL_CHECK_THRESH=80;
+    static int SEAL_CHECK_THRESH=130;
     static int SEAL_OCCLUSION_THRESH=500;
 
     static LinkedList<short[]> fullrec;
