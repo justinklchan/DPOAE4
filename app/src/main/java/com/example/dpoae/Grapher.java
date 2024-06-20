@@ -104,7 +104,7 @@ public class Grapher {
         else {
             carray = new int[Constants.complete.length];
             for (int i = 0; i < Constants.complete.length; i++) {
-                if (Constants.complete[i]||Math.ceil(data.get(i).getY()) >=Constants.SNR_THRESH) {
+                if (Constants.complete[i]||Math.ceil(data.get(i).getY()) >=Constants.SNR_THRESHS[i]) {
                     Log.e("justin","colorgreen-"+i);
                     carray[i] = av.getColor(R.color.colorDarkGreen);
                 } else {

@@ -299,13 +299,15 @@ public class FileOperations {
             for (Double i : snr) {
                 outfile.append(i+",");
             }
+            int counter=0;
             for (Double i : snr) {
-                if (i >= Constants.SNR_THRESH) {
+                if (i >= Constants.SNR_THRESHS[counter]) {
                     outfile.append("true,");
                 }
                 else {
                     outfile.append("false,");
                 }
+                counter+=1;
             }
             if (result) {
                 outfile.append("Pass,");

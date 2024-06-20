@@ -302,7 +302,7 @@ public class Signal {
 //            Constants.complete[fidx] = true;
 //        }
 //        Log.e("justin","SNR: "+Math.ceil(snr));
-        if (Math.ceil(snr) >= Constants.SNR_THRESH) {
+        if (Math.ceil(snr) >= Constants.SNR_THRESHS[fidx]) {
             Constants.complete[fidx] = true;
         }
 

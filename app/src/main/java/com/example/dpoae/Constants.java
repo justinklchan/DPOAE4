@@ -61,7 +61,8 @@ public class Constants {
     static int PROBE_CHECK_SAFE_ZONE_END = 140;
 
     // TEST
-    static double SNR_THRESH = 6;
+    static double[] SNR_THRESHS = new double[]{6,6,11,10};
+    static double BAND_PASS_THRESH=3;
     static double SPL_THRESH = -50;
 
     static int MAX_TRIES = 1;

@@ -540,7 +540,7 @@ public class MeasureFragment extends Fragment {
 //                @Override
 //                public void run() {
 //            if (Constants.SHOW_RESULT) {
-                if (finalNcounter >= 3) {
+                if (finalNcounter >= Constants.BAND_PASS_THRESH) {
                     result.setText("Pass");
                     return true;
                 } else {
