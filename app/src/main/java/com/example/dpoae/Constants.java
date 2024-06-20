@@ -282,14 +282,14 @@ public class Constants {
             vols[1]=.5f;
             vols[2]=.6f;
             vols[3]=.6f;
-            SEAL_CHECK_THRESH=40;
+            SEAL_CHECK_THRESH=130;
         }
         else if (phone.equals("kenyaD")) {
             vols[0]=.6f;
             vols[1]=.4f;
             vols[2]=.6f;
             vols[3]=.6f;
-            SEAL_CHECK_THRESH=30;
+            SEAL_CHECK_THRESH=130;
         }
         for(int i = 0; i < f1.length; i++) {
             vol1LookupDefaults.put(f2[i], vols[i]);
