@@ -160,7 +160,7 @@ public class Constants {
 
         Log.e("androidid",android_id);
 
-        if (android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")) {
+        if (android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")||android_id.equals("215cc03f47f1cbad")) {
             phone="kenyaA";
             f2[0]=1900;
             f2[1]=2900;

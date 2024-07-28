@@ -314,16 +314,16 @@ public class MeasureFragment extends Fragment {
 
         boolean showOld=true;
         String[] fnames=new String[]{
-                "2024-01-29 13:29:17-0-Name-left-3-kenyaB",
-                "2024-01-29 13:32:04-0-Name-left-6-kenyaB",
-                "2024-01-29 13:35:22-0-Name-left-7-kenyaB",
-                "2024-01-29 13:39:00-0-Name-right-2-kenyaB",
-                "2024-01-29 13:39:58-0-Name-right-3-kenyaB",
-                "2024-01-29 13:41:40-0-Name-right-4-kenyaB",
-                "2024-01-29 13:52:48-0-Name-right-6-kenyaB",
-
-                "2024-01-29 13:36:29-0-Name-left-8-kenyaB",
-                "2024-01-29 13:54:11-0-Name-right-9-kenyaB",
+//                "2024-01-29 13:29:17-0-Name-left-3-kenyaB",
+//                "2024-01-29 13:32:04-0-Name-left-6-kenyaB",
+//                "2024-01-29 13:35:22-0-Name-left-7-kenyaB",
+//                "2024-01-29 13:39:00-0-Name-right-2-kenyaB",
+//                "2024-01-29 13:39:58-0-Name-right-3-kenyaB",
+//                "2024-01-29 13:41:40-0-Name-right-4-kenyaB",
+//                "2024-01-29 13:52:48-0-Name-right-6-kenyaB",
+//
+//                "2024-01-29 13:36:29-0-Name-left-8-kenyaB",
+//                "2024-01-29 13:54:11-0-Name-right-9-kenyaB",
 
 //                "2024-01-30 13:13:10-1-Name-right-10-kenyaA",
 //                "2024-01-30 13:20:05-1-Name-right-15-kenyaA",
@@ -357,6 +357,29 @@ public class MeasureFragment extends Fragment {
 //                "2024-01-30 13:18:09-1-Name-right-13-kenyaA",
 //                "2024-01-30 13:18:55-1-Name-right-14-kenyaA",
 //                "2024-01-30 13:20:05-1-Name-right-15-kenyaA",
+
+//                "2024-07-24 084319-0-Name-right-1-kenyaA", // ERROR 2khz too noisy. tones too soft 2,3khz.
+//                "2024-07-24 090749-0-Name-right-2-kenyaA", // ERROR 5khz too noisy. tones too soft 5khz.
+//                "2024-07-24 111023-0-Name-left-1-kenyaA", // ERROR 3khz too noisy. tones being played are too soft 3khz.
+//                "2024-07-24 111232-0-Name-right-1-kenyaA",
+//                "2024-07-24 111527-0-Name-left-2-kenyaA",
+//                "2024-07-24 111857-0-Name-left-3-kenyaA",
+//                "2024-07-24 111954-0-Name-right-2-kenyaA",
+//                "2024-07-24 112921-0-Name-left-4-kenyaA",
+//                "2024-07-24 113015-0-Name-right-3-kenyaA",
+
+//                "2024-07-25 081014-0-Name-right-1-kenyaA", // NAN
+//                "2024-07-25 081101-0-Name-left-1-kenyaA", // ERROR 3khz too noisy
+//                "2024-07-25 085934-1-Name-right-1-kenyaA",
+//                "2024-07-25 090144-1-Name-left-1-kenyaA", // ERROR 2khz too soft
+//                "2024-07-25 090645-2-Name-left-1-kenyaA",
+//                "2024-07-25 090814-2-Name-right-1-kenyaA", // ERROR 2khz too soft
+//                "2024-07-26 111901-2-Name-right-1-kenyaA",
+//                "2024-07-26 114914-0001-EWG-left-1-kenyaA", // ERROR 4khz too soft.
+
+//                "2024-07-26 11_50_47-0-Name-right-1-kenyaB",
+//                "2024-07-26 11_51_46-0001-EWG-left-1-kenyaB", // ERROR 2khz too soft
+//                "2024-07-26 11_53_18-0001-EWG-right-1-kenyaB",
         };
 //        String[] fnames = new String[]{"0-left-1655605472059","0-left-1655605490797","0-left-1655605508473","0-left-1655606023171","0-left-1655606041669","0-left-1655606099161","0-left-1655605781684","0-left-1655605975773","0-left-1655605996011","0-left-1655605622874","0-left-1655605643500","0-left-1655605662817","0-left-1655605707583","0-left-1655605726860","0-left-1655605745289"};
 //        String[] fnames = new String[]{"1-right-1643308698736","1-left-1643309070293","2-right-1643316965081","2-left-1643317149293","4-right-combined","5-right-1643329220820","5-left-1643328985635","11-right-1646853068138","11-left-1646852965735","13-right-1646931100765","13-left-1646931184462","15-right-1646940140158","15-left-1646940194912","17-right-1646950623532","17-left-1646950478308","13-right-1647475571658","13-left-1647475672044","14-right-1647622320739","14-left-1647622177654","15-right-1647628160109","16-right-1647629951500","16-left-1647629814049","17-left-1647636143349","18-left-1647636752179","26-right-1648493058494","26-left-1648493138582","27-right-1648501871192","27-left-1648501953220","28-right-1648574358019","31-right-1648670376087","31-left-1648670195221","33-right-1648681857274","33-left-1648681777607","33-right-combined","33-left-1649094533489","34-right-1648853089083","34-left-1648853012630","35-right-1648853821817","36-right-combined","36-left-1649096280646","39-right-1649273816213","39-left-1649274756487","40-left-1649282286421","41-right-1649438242350","42-right-1649439582718","42-left-1649439497367","44-left-1649457751513","45-left-1649458864950","46-right-1649872930642","46-left-1649872856338","47-left-1649885268375","48-right-1649890234487","48-left-1649890188044","50-right-1649968438591","50-left-1649968361363","51-right-1649970330084","52-left-1649972929997","54-right-1650041814448","54-left-1650041877737","55-right-1650050214396","55-left-1650049897963","56-left-1650058000752","57-right-1650304046651","57-left-1650303944012","58-right-1650308297236","58-left-1650308383116","32-left-1648673829539","37-right-1649266235074","37-left-1649266073252","38-right-1649267611177","38-left-1649267446217","62-right-1650905273149","62-left-1650905106477","63-left-1650906609619","64-left-1650911568553","65-right-1651009908843","65-left-1651010280162","66-right-1651098161199","66-left-1651098236382","67-right-1651170169914","67-left-1651169572708","68-right-combined","68-left-1651183321804","69-right-1651252417326","69-left-1651252096985","70-right-1651526140231","73-right-1651694679544","73-left-1651694950115","101-right-combined","101-left-1648578860737","102-right-combined","102-left-1648598277517","103-right-1649095119478","103-left-1649095063272","104-right-1649203179545","104-left-1649203118066","105-right-1649286250165","105-left-1649285992935","106-right-1649788298877","106-left-1649788257709","107-right-1649804969072","107-left-1649805173880","108-left-1649892251571","109-left-1650493920385","110-right-1651517846241","110-left-1651517769282"};
@@ -417,6 +440,7 @@ public class MeasureFragment extends Fragment {
                     }
                     boolean status=checkStatus(getActivity());
                     Log.e("final",fname);
+                    warningCheck();
 //                    Log.e("final",((int)Math.ceil(noise[0]))+","+((int)Math.ceil(noise[1]))+","+((int)Math.ceil(noise[2]))+","+((int)Math.ceil(noise[3]))+","+status);
                     String noisy=checkNoiseThresholds(getActivity());
                     Grapher.graph(barChart, lineChart, getActivity(), Constants.graphData, Constants.lineData1, Constants.lineData2, false);
