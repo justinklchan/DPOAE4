@@ -61,9 +61,15 @@ public class Constants {
     static int PROBE_CHECK_SAFE_ZONE_END = 140;
 
     // TEST
-    static double[] SNR_THRESHS = new double[]{6,6,11,10};
-    static double BAND_PASS_THRESH=3;
+    static double[] SNR_THRESHS = new double[]{0,0,0,0};
+    static double[] SNR_THRESHS_1 = new double[]{6,6,11,10};
+    static double[] SNR_THRESHS_2 = new double[]{7,4,5,4};
+    static double BAND_PASS_THRESH=0;
+    static double BAND_PASS_THRESH_1=3;
+    static double BAND_PASS_THRESH_2=2;
     static double SPL_THRESH = -50;
+    static int patientYear=0;
+    static int patientMonth=0;
 
     static int MAX_TRIES = 1;
     static int samplingRate = 48000;
@@ -160,7 +166,7 @@ public class Constants {
 
         Log.e("androidid",android_id);
 
-        if (android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")||android_id.equals("215cc03f47f1cbad")) {
+        if (android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")||android_id.equals("215cc03f47f1cbad")||android_id.equals("86c59a9d0f5cdec9")) {
             phone="kenyaA";
             f2[0]=1900;
             f2[1]=2900;

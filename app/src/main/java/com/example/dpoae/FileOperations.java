@@ -241,7 +241,7 @@ public class FileOperations {
             outfile.append("2khz_result,3khz_result,4khz_result,5khz_result,");
             outfile.append("test_result,test_complete,ambient_noise_2khz,ambient_noise_3khz,ambient_noise_4khz,ambient_noise_5khz,");
             outfile.append("ambient_noise_result_2khz,ambient_noise_result_3khz,ambient_noise_result_4khz,ambient_noise_result_5khz,ambient_noise_result,tone_length,");
-            outfile.append("check_fit_val,check_fit_thresh\n");
+            outfile.append("check_fit_val,check_fit_thresh,year,month,snr_thresh1,snr_thresh2,snr_thresh3,snr_thresh4,band_thresh\n");
 
             outfile.write(pid+","+uid+","+ear+","+attemptNumber+","+Constants.site+",");
             for(int i = 0; i < Constants.f1.length; i++) {
@@ -321,7 +321,9 @@ public class FileOperations {
             }
             outfile.append(noiseVal+",");
             outfile.append(toneLength+",");
-            outfile.append(Constants.CheckFitProgress+","+Constants.SEAL_CHECK_THRESH);
+            outfile.append(Constants.CheckFitProgress+","+Constants.SEAL_CHECK_THRESH+",");
+            outfile.append(Constants.patientYear+","+Constants.patientMonth+",");
+            outfile.append(Constants.SNR_THRESHS[0]+","+Constants.SNR_THRESHS[1]+","+Constants.SNR_THRESHS[2]+","+Constants.SNR_THRESHS[3]+","+Constants.BAND_PASS_THRESH);
             outfile.flush();
             outfile.close();
             Log.e("ex", "writeCSVToDisk");

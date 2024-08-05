@@ -1,2 +1,0 @@
-C:\Users\mmcha\AndroidStudioProjects\DPOAE4\app\Android.mk
-C:\Users\mmcha\AndroidStudioProjects\DPOAE4\app\Application.mk
