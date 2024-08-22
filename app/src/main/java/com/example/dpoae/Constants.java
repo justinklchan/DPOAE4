@@ -63,10 +63,10 @@ public class Constants {
     // TEST
     static double[] SNR_THRESHS = new double[]{0,0,0,0};
     static double[] SNR_THRESHS_1 = new double[]{6,6,11,10};
-    static double[] SNR_THRESHS_2 = new double[]{7,4,5,4};
+    static double[] SNR_THRESHS_2 = new double[]{5,4,4,4};
     static double BAND_PASS_THRESH=0;
     static double BAND_PASS_THRESH_1=3;
-    static double BAND_PASS_THRESH_2=2;
+    static double BAND_PASS_THRESH_2=3;
     static double SPL_THRESH = -50;
     static int patientYear=0;
     static int patientMonth=0;
