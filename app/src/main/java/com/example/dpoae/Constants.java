@@ -158,15 +158,15 @@ public class Constants {
     static int[] f2=new int[4];
     static int[] oaes=new int[4];
     static int[] oaes2=new int[4];
-
+    static String android_id;
     public static void init(Context context) {
 
-        String android_id = Secure.getString(context.getContentResolver(),
+        Constants.android_id = Secure.getString(context.getContentResolver(),
                 Secure.ANDROID_ID);
 
         Log.e("androidid",android_id);
 
-        if (android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")||android_id.equals("215cc03f47f1cbad")||android_id.equals("86c59a9d0f5cdec9")) {
+        if (android_id.equals("4440db34e0494a9f")||android_id.equals("5c036c180f521a09")||android_id.equals("a2ee357cb0a51ef7")||android_id.equals("215cc03f47f1cbad")||android_id.equals("86c59a9d0f5cdec9")) {
             phone="kenyaA";
             f2[0]=1900;
             f2[1]=2900;
@@ -193,6 +193,13 @@ public class Constants {
             f2[1]=2900;
             f2[2]=3800;
             f2[3]=4800;
+        }
+        else {
+            phone="kenyaX";
+            f2[0]=1900;
+            f2[1]=2900;
+            f2[2]=3900;
+            f2[3]=4900;
         }
 
         freqs=new boolean[f2.length];
